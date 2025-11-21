@@ -86,3 +86,8 @@ FOLDER STRUCTURE:
 
 EXECUTION COMMAND:
     - python.exe .\Main.py alerts/sentinel.json
+
+#############
+
+LOGS:
+    - script logs are store in file logs.txt inside the out folder.
