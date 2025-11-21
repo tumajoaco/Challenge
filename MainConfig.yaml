@@ -1,0 +1,18 @@
+application_name: "tiny SOAR Pipeline"
+version: "1.0.0"
+
+FoldersPath:
+  ConfigFolderPath: "./Config"
+  AlertsFolderPath: "./Alerts"
+  IncidentFolderPath: "./out/incidents"
+  SummaryFolderPath: "./out/summaries"
+  LogFolderPath: "./out"
+  MockDataFolderPath: "./mock/it"
+
+FilesName:
+  ConnectorsFileName: "connectors.yml"
+  AllowlistFileName: "allowlists.yml"
+  MitreMapFileName: "mitre_map.yml"
+  MarkdownTemplateFileName: "summary_template.md"
+
+

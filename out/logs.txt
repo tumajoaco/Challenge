@@ -1,0 +1,430 @@
+2025-11-21 13:30:53 Starting Main.py script.
+2025-11-21 13:30:53: Config files have been loaded successfully.
+2025-11-21 13:30:53: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:30:53: Incident inc-018 normalized successfully.
+2025-11-21 13:30:53: Analyzing IOC 1.2.3.4.
+2025-11-21 13:30:53: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:30:53: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:30:53: Analyzing IOC 1.2.3.3.
+2025-11-21 13:30:53: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:30:53: Analyzing IOC bad.example.net.
+2025-11-21 13:30:53: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:30:53: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:30:53: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:30:53: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:30:53: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:30:53: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:30:53: Incident inc-018 was enriched successfully.
+2025-11-21 13:30:53: IOC bad.example.net allowlisted=true.
+2025-11-21 13:30:53: IncidentId: inc-018;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:30:53: Incident inc-018 was triaged successfully.
+2025-11-21 13:30:53: Isolate device_id=dev-9001  incident=inc-018 result=isolated.
+2025-11-21 13:30:53: Incident inc-018 output process was finished successfully. Incident information was stored in file inc-018.json at folder ./out/incidents.
+2025-11-21 13:30:53: Incident inc-018 output process was finished successfully. Incident information was stored in file inc-018.md at folder ./out/summaries.
+2025-11-21 13:31:27: Starting Main.py script.
+2025-11-21 13:31:27: Config files have been loaded successfully.
+2025-11-21 13:31:27: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:31:27: Incident inc-019 normalized successfully.
+2025-11-21 13:31:27: Analyzing IOC 1.2.3.4.
+2025-11-21 13:31:27: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:31:27: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:31:27: Analyzing IOC 1.2.3.3.
+2025-11-21 13:31:27: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:31:27: Analyzing IOC bad.example.net.
+2025-11-21 13:31:27: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:31:27: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:31:27: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:31:27: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:31:27: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:31:27: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:31:27: Incident inc-019 was enriched successfully.
+2025-11-21 13:31:27: IOC bad.example.net allowlisted=true.
+2025-11-21 13:31:27: IncidentId: inc-019;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:31:27: Incident inc-019 was triaged successfully.
+2025-11-21 13:31:27: Isolate device_id=dev-9001  incident=inc-019 result=isolated.
+2025-11-21 13:31:27: Incident inc-019 output process was finished successfully. Incident information was stored in file inc-019.json at folder ./out/incidents.
+2025-11-21 13:31:27: Incident inc-019 output process was finished successfully. Incident information was stored in file inc-019.md at folder ./out/summaries.
+2025-11-21 13:32:11: Starting Main.py script.
+2025-11-21 13:32:11: Config files have been loaded successfully.
+2025-11-21 13:32:11: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:32:11: Incident inc-020 normalized successfully.
+2025-11-21 13:32:11: Analyzing IOC 1.2.3.4.
+2025-11-21 13:32:11: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:32:11: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:32:11: Analyzing IOC 1.2.3.3.
+2025-11-21 13:32:11: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:32:11: Analyzing IOC bad.example.net.
+2025-11-21 13:32:11: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:32:11: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:32:11: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:32:11: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:32:11: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:32:11: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:32:11: Incident inc-020 was enriched successfully.
+2025-11-21 13:32:11: IOC bad.example.net allowlisted=true.
+2025-11-21 13:32:11: IncidentId: inc-020;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:32:11: Incident inc-020 was triaged successfully.
+2025-11-21 13:32:11: Isolate device_id=dev-9001  incident=inc-020 result=isolated.
+2025-11-21 13:32:11: Incident inc-020 output process was finished successfully. Incident information was stored in file inc-020.json at folder ./out/incidents.
+2025-11-21 13:32:11: Incident inc-020 output process was finished successfully. Incident information was stored in file inc-020.md at folder ./out/summaries.
+2025-11-21 13:32:26: Starting Main.py script.
+2025-11-21 13:32:26: Config files have been loaded successfully.
+2025-11-21 13:32:26: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:32:26: Incident inc-021 normalized successfully.
+2025-11-21 13:32:26: Analyzing IOC 1.2.3.4.
+2025-11-21 13:32:26: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:32:26: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:32:26: Analyzing IOC 1.2.3.3.
+2025-11-21 13:32:26: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:32:26: Analyzing IOC bad.example.net.
+2025-11-21 13:32:26: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:32:26: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:32:26: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:32:26: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:32:26: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:32:26: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:32:26: Incident inc-021 was enriched successfully.
+2025-11-21 13:32:26: IOC bad.example.net allowlisted=true.
+2025-11-21 13:32:26: IncidentId: inc-021;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:32:26: Incident inc-021 was triaged successfully.
+2025-11-21 13:32:26: Isolate device_id=dev-9001  incident=inc-021 result=isolated.
+2025-11-21 13:32:26: Incident inc-021 output process was finished successfully. Incident information was stored in file inc-021.json at folder ./out/incidents.
+2025-11-21 13:32:26: Incident inc-021 output process was finished successfully. Incident information was stored in file inc-021.md at folder ./out/summaries.
+2025-11-21 13:34:19: Starting Main.py script.
+2025-11-21 13:34:19: Config files have been loaded successfully.
+2025-11-21 13:34:19: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:34:19: Incident inc-022 normalized successfully.
+2025-11-21 13:34:19: Analyzing IOC 1.2.3.4.
+2025-11-21 13:34:19: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:34:19: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:34:19: Analyzing IOC 1.2.3.3.
+2025-11-21 13:34:19: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:34:19: Analyzing IOC bad.example.net.
+2025-11-21 13:34:19: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:34:19: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:34:19: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:34:19: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:34:19: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:34:19: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:34:19: Incident inc-022 was enriched successfully.
+2025-11-21 13:34:19: IOC bad.example.net allowlisted=true.
+2025-11-21 13:34:19: IncidentId: inc-022;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:34:19: Incident inc-022 was triaged successfully.
+2025-11-21 13:34:19: Isolate device_id=dev-9001  incident=inc-022 result=isolated.
+2025-11-21 13:34:19: Incident inc-022 output process was finished successfully. Incident information was stored in file inc-022.json at folder ./out/incidents.
+2025-11-21 13:34:19: Incident inc-022 output process was finished successfully. Incident information was stored in file inc-022.md at folder ./out/summaries.
+
+
+
+2025-11-21 13:34:39: Starting Main.py script.
+2025-11-21 13:34:39: Config files have been loaded successfully.
+2025-11-21 13:34:39: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:34:39: Incident inc-023 normalized successfully.
+2025-11-21 13:34:39: Analyzing IOC 1.2.3.4.
+2025-11-21 13:34:39: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:34:39: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:34:39: Analyzing IOC 1.2.3.3.
+2025-11-21 13:34:39: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:34:39: Analyzing IOC bad.example.net.
+2025-11-21 13:34:39: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:34:39: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:34:39: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:34:39: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:34:39: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:34:39: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:34:39: Incident inc-023 was enriched successfully.
+2025-11-21 13:34:39: IOC bad.example.net allowlisted=true.
+2025-11-21 13:34:39: IncidentId: inc-023;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:34:39: Incident inc-023 was triaged successfully.
+2025-11-21 13:34:39: Isolate device_id=dev-9001  incident=inc-023 result=isolated.
+2025-11-21 13:34:39: Incident inc-023 output process was finished successfully. Incident information was stored in file inc-023.json at folder ./out/incidents.
+2025-11-21 13:34:39: Incident inc-023 output process was finished successfully. Incident information was stored in file inc-023.md at folder ./out/summaries.
+
+
+
+2025-11-21 13:35:51: Starting Main.py script.
+2025-11-21 13:35:51: Config files have been loaded successfully.
+2025-11-21 13:35:51: alerts/sentinel.json alert file read successfully.
+2025-11-21 13:35:51: Incident inc-024 normalized successfully.
+2025-11-21 13:35:51: Analyzing IOC 1.2.3.4.
+2025-11-21 13:35:51: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 13:35:51: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 13:35:51: Analyzing IOC 1.2.3.3.
+2025-11-21 13:35:51: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:35:51: Analyzing IOC bad.example.net.
+2025-11-21 13:35:51: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:35:51: Analyzing IOC http://bad.example.net/login.
+2025-11-21 13:35:51: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 13:35:51: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 13:35:51: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 13:35:51: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 13:35:51: Incident inc-024 was enriched successfully.
+2025-11-21 13:35:51: IOC bad.example.net allowlisted=true.
+2025-11-21 13:35:51: IncidentId: inc-024;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 13:35:51: Incident inc-024 was triaged successfully.
+2025-11-21 13:35:51: Isolate device_id=dev-9001  incident=inc-024 result=isolated.
+2025-11-21 13:35:51: Incident inc-024 output process was finished successfully. Incident information was stored in file inc-024.json at folder ./out/incidents.
+2025-11-21 13:35:51: Incident inc-024 output process was finished successfully. Incident information was stored in file inc-024.md at folder ./out/summaries.
+
+
+
+2025-11-21 15:31:13: Starting Main.py script.
+2025-11-21 15:31:13: Config files have been loaded successfully.
+2025-11-21 15:31:13: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:31:13: Incident inc-002 normalized successfully.
+2025-11-21 15:31:13: Analyzing IOC 1.2.3.4.
+2025-11-21 15:31:13: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:31:13: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:31:13: Analyzing IOC 1.2.3.3.
+2025-11-21 15:31:13: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:31:13: Analyzing IOC bad.example.net.
+2025-11-21 15:31:13: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:31:13: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:31:13: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:31:13: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:31:13: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:31:13: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:31:13: Incident inc-002 was enriched successfully.
+2025-11-21 15:31:13: IOC bad.example.net allowlisted=true.
+2025-11-21 15:31:13: IncidentId: inc-002;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:31:13: Incident inc-002 was triaged successfully.
+2025-11-21 15:31:13: Isolate device_id=dev-9001  incident=inc-002 result=isolated.
+2025-11-21 15:31:13: Incident inc-002 output process was finished successfully. Incident information was stored in file inc-002.json at folder .
+2025-11-21 15:31:13: Error saving incident inc-002 in file inc-002.md at folder .
+
+
+
+2025-11-21 15:39:31: Starting Main.py script.
+2025-11-21 15:39:31: Reading Config Files.
+2025-11-21 15:39:31: Config files have been loaded successfully.
+2025-11-21 15:39:31: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:39:31: Incident inc-003 normalized successfully.
+2025-11-21 15:39:31: Analyzing IOC 1.2.3.4.
+2025-11-21 15:39:31: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:39:31: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:39:31: Analyzing IOC 1.2.3.3.
+2025-11-21 15:39:31: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:39:31: Analyzing IOC bad.example.net.
+2025-11-21 15:39:31: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:39:31: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:39:31: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:39:31: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:39:31: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:39:31: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:39:31: Incident inc-003 was enriched successfully.
+2025-11-21 15:39:31: IOC bad.example.net allowlisted=true.
+2025-11-21 15:39:31: IncidentId: inc-003;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:39:31: Incident inc-003 was triaged successfully.
+2025-11-21 15:39:31: Isolate device_id=dev-9001  incident=inc-003 result=isolated.
+2025-11-21 15:39:31: Incident inc-003 output process was finished successfully. Incident information was stored in file inc-003.json at folder .
+2025-11-21 15:39:31: Error saving incident inc-003 in file inc-003.md at folder .
+
+
+
+2025-11-21 15:40:52: Starting Main.py script.
+2025-11-21 15:40:52: Reading Config Files.
+2025-11-21 15:40:52: Config files have been loaded successfully.
+2025-11-21 15:40:52: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:40:52: Incident inc-001 normalized successfully.
+2025-11-21 15:40:52: Analyzing IOC 1.2.3.4.
+2025-11-21 15:40:52: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:40:52: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:40:52: Analyzing IOC 1.2.3.3.
+2025-11-21 15:40:52: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:40:52: Analyzing IOC bad.example.net.
+2025-11-21 15:40:52: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:40:52: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:40:52: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:40:52: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:40:52: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:40:52: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:40:52: Incident inc-001 was enriched successfully.
+2025-11-21 15:40:52: IOC bad.example.net allowlisted=true.
+2025-11-21 15:40:52: IncidentId: inc-001;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:40:52: Incident inc-001 was triaged successfully.
+2025-11-21 15:40:52: Isolate device_id=dev-9001  incident=inc-001 result=isolated.
+2025-11-21 15:40:52: Incident inc-001 output process was finished successfully. Incident information was stored in file inc-001.json at folder .
+2025-11-21 15:40:52: Error saving incident inc-001 in file inc-001.md at folder .
+
+
+
+2025-11-21 15:42:01: Starting Main.py script.
+2025-11-21 15:42:01: Reading Config Files.
+2025-11-21 15:42:01: Config files have been loaded successfully.
+2025-11-21 15:42:01: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:42:01: Incident inc-002 normalized successfully.
+2025-11-21 15:42:01: Analyzing IOC 1.2.3.4.
+2025-11-21 15:42:01: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:42:01: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:42:01: Analyzing IOC 1.2.3.3.
+2025-11-21 15:42:01: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:42:01: Analyzing IOC bad.example.net.
+2025-11-21 15:42:01: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:42:01: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:42:01: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:42:01: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:42:01: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:42:01: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:42:01: Incident inc-002 was enriched successfully.
+2025-11-21 15:42:01: IOC bad.example.net allowlisted=true.
+2025-11-21 15:42:01: IncidentId: inc-002;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:42:01: Incident inc-002 was triaged successfully.
+2025-11-21 15:42:01: Isolate device_id=dev-9001  incident=inc-002 result=isolated.
+2025-11-21 15:42:01: Incident inc-002 output process was finished successfully. Incident information was stored in file inc-002.json at folder .
+2025-11-21 15:42:01: Error saving incident inc-002 in file inc-002.md at folder .
+
+
+
+2025-11-21 15:44:13: Starting Main.py script.
+2025-11-21 15:44:13: Reading Config Files.
+2025-11-21 15:44:13: Config files have been loaded successfully.
+2025-11-21 15:44:13: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:44:13: Incident inc-003 normalized successfully.
+2025-11-21 15:44:13: Analyzing IOC 1.2.3.4.
+2025-11-21 15:44:13: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:44:13: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:44:13: Analyzing IOC 1.2.3.3.
+2025-11-21 15:44:13: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:44:13: Analyzing IOC bad.example.net.
+2025-11-21 15:44:13: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:44:13: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:44:13: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:44:13: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:44:13: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:44:13: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:44:13: Incident inc-003 was enriched successfully.
+2025-11-21 15:44:13: IOC bad.example.net allowlisted=true.
+2025-11-21 15:44:13: IncidentId: inc-003;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:44:13: Incident inc-003 was triaged successfully.
+2025-11-21 15:44:13: Isolate device_id=dev-9001  incident=inc-003 result=isolated.
+2025-11-21 15:44:13: Incident inc-003 output process was finished successfully. Incident information was stored in file inc-003.json at folder .
+2025-11-21 15:44:13: Error saving incident inc-003 in file inc-003.md at folder .
+
+
+
+2025-11-21 15:47:25: Starting Main.py script.
+2025-11-21 15:47:25: Reading Config Files.
+2025-11-21 15:47:25: Config files have been loaded successfully.
+2025-11-21 15:47:25: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:47:25: Incident inc-001 normalized successfully.
+2025-11-21 15:47:25: Analyzing IOC 1.2.3.4.
+2025-11-21 15:47:25: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:47:25: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:47:25: Analyzing IOC 1.2.3.3.
+2025-11-21 15:47:25: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:47:25: Analyzing IOC bad.example.net.
+2025-11-21 15:47:25: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:47:25: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:47:25: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:47:25: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:47:25: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:47:25: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:47:25: Incident inc-001 was enriched successfully.
+2025-11-21 15:47:25: IOC bad.example.net allowlisted=true.
+2025-11-21 15:47:25: IncidentId: inc-001;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:47:25: Incident inc-001 was triaged successfully.
+2025-11-21 15:47:25: Isolate device_id=dev-9001  incident=inc-001 result=isolated.
+2025-11-21 15:47:25: Incident inc-001 output process was finished successfully. Incident information was stored in file inc-001.json at folder ./out/incidents.
+2025-11-21 15:47:25: Incident inc-001 output process was finished successfully. Incident information was stored in file inc-001.md at folder ./out/summaries.
+
+
+
+2025-11-21 15:48:06: Starting Main.py script.
+2025-11-21 15:48:06: Reading Config Files.
+2025-11-21 15:48:06: Config files have been loaded successfully.
+2025-11-21 15:48:06: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:48:06: Incident inc-002 normalized successfully.
+2025-11-21 15:48:06: Analyzing IOC 1.2.3.4.
+2025-11-21 15:48:06: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:48:06: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:48:06: Analyzing IOC 1.2.3.3.
+2025-11-21 15:48:06: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:48:06: Analyzing IOC bad.example.net.
+2025-11-21 15:48:06: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:48:06: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:48:06: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:48:06: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:48:06: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:48:06: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:48:06: Incident inc-002 was enriched successfully.
+2025-11-21 15:48:06: IOC bad.example.net allowlisted=true.
+2025-11-21 15:48:07: IncidentId: inc-002;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:48:07: Incident inc-002 was triaged successfully.
+2025-11-21 15:48:07: Isolate device_id=dev-9001  incident=inc-002 result=isolated.
+2025-11-21 15:48:07: Incident inc-002 output process was finished successfully. Incident information was stored in file inc-002.json at folder ./out/incidents.
+2025-11-21 15:48:07: Incident inc-002 output process was finished successfully. Incident information was stored in file inc-002.md at folder ./out/summaries.
+
+
+
+2025-11-21 15:49:13: Starting Main.py script.
+2025-11-21 15:49:13: Reading Config Files.
+2025-11-21 15:49:13: Config files have been loaded successfully.
+2025-11-21 15:49:13: alerts/sentinel.json alert file read successfully.
+2025-11-21 15:49:13: Incident inc-003 normalized successfully.
+2025-11-21 15:49:13: Analyzing IOC 1.2.3.4.
+2025-11-21 15:49:13: For the IOC 1.2.3.4, 1 matches have been found in the TI providers.
+2025-11-21 15:49:13: IOC 1.2.3.4, Type: ipv4, Veredict:suspicious, Score:80, TI_Sources:['anomali'].
+2025-11-21 15:49:13: Analyzing IOC 1.2.3.3.
+2025-11-21 15:49:13: IOC 1.2.3.3, Type: ipv4, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:49:13: Analyzing IOC bad.example.net.
+2025-11-21 15:49:13: IOC bad.example.net, Type: domains, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:49:13: Analyzing IOC http://bad.example.net/login.
+2025-11-21 15:49:13: IOC http://bad.example.net/login, Type: urls, Veredict:Unknown, Score:0, TI_Sources:[].
+2025-11-21 15:49:13: Analyzing IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0.
+2025-11-21 15:49:13: For the IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, 1 matches have been found in the TI providers.
+2025-11-21 15:49:13: IOC 7b1f4c2d16e0a0b43cbae2f9a9c2dd7e2bb3a0aaad6c0ad66b341f8b7deadbe0, Type: sha256, Veredict:malicious, Score:95, TI_Sources:['reversinglabs'].
+2025-11-21 15:49:13: Incident inc-003 was enriched successfully.
+2025-11-21 15:49:13: IOC bad.example.net allowlisted=true.
+2025-11-21 15:49:13: IncidentId: inc-003;
+     AlertType: CredentialAccess;
+     IOCs: total->5, malicious->1, suspicious->1, allowedList->1;
+     Results: severity->75, bucket->High.
+2025-11-21 15:49:13: Incident inc-003 was triaged successfully.
+2025-11-21 15:49:13: Isolate device_id=dev-9001  incident=inc-003 result=isolated.
+2025-11-21 15:49:13: Incident inc-003 output process was finished successfully. Incident information was stored in file inc-003.json at folder ./out/incidents.
+2025-11-21 15:49:13: Incident inc-003 output process was finished successfully. Incident information was stored in file inc-003.md at folder ./out/summaries.
+
+
+
